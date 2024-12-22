@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/midi_interpreter.dir/main.cpp.o -o midi_interpreter 
