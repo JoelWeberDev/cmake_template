@@ -13,7 +13,7 @@ project_root/
 |   |   |-- module2.h
 |   |   |-- module2.cpp
 |   |
-|   |-- core/
+|   |-- common/
 |       |-- [CMakeLists.txt](http://_vscodecontentref_/4)
 |       |-- core.h
 |       |-- core.cpp
@@ -26,7 +26,6 @@ project_root/
 |   |   |-- src/
 |   |       |-- lib1_file.cpp
 |   |       |-- ...
-|   |   |-- [CMakeLists.txt](http://_vscodecontentref_/5)
 |   |
 |   |-- lib2/
 |       |-- include/
@@ -35,10 +34,9 @@ project_root/
 |       |-- src/
 |           |-- lib2_file.cpp
 |           |-- ...
-|       |-- [CMakeLists.txt](http://_vscodecontentref_/6)
 |-- build/
 |   | cmake build files
-|   | project_root.ext      
+|   | project_root.exe
 
 
 Very helpful resources
