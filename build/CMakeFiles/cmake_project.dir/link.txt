@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/cmake_project.dir/main.cpp.o -o cmake_project  src/common/libcommon.a src/module1/libmodule1.a libshared_lib1.a 

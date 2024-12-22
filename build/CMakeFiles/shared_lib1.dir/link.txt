@@ -1,0 +1,2 @@
+/usr/bin/ar qc libshared_lib1.a CMakeFiles/shared_lib1.dir/libs/shared_lib1/src/shared_lib1.cpp.o
+/usr/bin/ranlib libshared_lib1.a

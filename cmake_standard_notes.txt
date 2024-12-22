@@ -1,0 +1,46 @@
+project_root/
+|   [CMakeLists.txt](http://_vscodecontentref_/0)
+|   [main.cpp](http://_vscodecontentref_/1)
+|
+|-- src/
+|   |-- module1/
+|   |   |-- [CMakeLists.txt](http://_vscodecontentref_/2)
+|   |   |-- module1.h
+|   |   |-- module1.cpp
+|   |
+|   |-- module2/
+|   |   |-- [CMakeLists.txt](http://_vscodecontentref_/3)
+|   |   |-- module2.h
+|   |   |-- module2.cpp
+|   |
+|   |-- core/
+|       |-- [CMakeLists.txt](http://_vscodecontentref_/4)
+|       |-- core.h
+|       |-- core.cpp
+|
+|-- libs/
+|   |-- lib1/
+|   |   |-- include/
+|   |   |   |-- lib1_file.h
+|   |   |
+|   |   |-- src/
+|   |       |-- lib1_file.cpp
+|   |       |-- ...
+|   |   |-- [CMakeLists.txt](http://_vscodecontentref_/5)
+|   |
+|   |-- lib2/
+|       |-- include/
+|       |   |-- lib2_file.h
+|       |
+|       |-- src/
+|           |-- lib2_file.cpp
+|           |-- ...
+|       |-- [CMakeLists.txt](http://_vscodecontentref_/6)
+|-- build/
+|   | cmake build files
+|   | project_root.ext      
+
+
+Very helpful resources
+https://stackoverflow.com/questions/33534115/preferred-cmake-project-structure
+https://stackoverflow.com/questions/33443164/cmake-share-library-with-multiple-executables

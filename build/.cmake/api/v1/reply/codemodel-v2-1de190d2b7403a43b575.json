@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-Debug-26ca1aee19599f655637.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/module1",
+					"jsonFile" : "directory-src.module1-Debug-99213c671aeb59448b85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/module1",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cmake_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_project-Debug-bbccba5c39bcc4ec30f5.json",
+					"name" : "cmake_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Debug-6d9cb710a490aff34768.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "module1::@8c8a1980c36cbae44df9",
+					"jsonFile" : "target-module1-Debug-fa524266078b7ca2b3ca.json",
+					"name" : "module1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared_lib1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared_lib1-Debug-d6f96dfe85998a19f112.json",
+					"name" : "shared_lib1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joel/Development/projects/MIMIC/MIDI/midi_interpreter/build",
+		"source" : "/home/joel/Development/projects/MIMIC/MIDI/midi_interpreter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
