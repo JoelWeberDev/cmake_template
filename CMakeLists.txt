@@ -60,3 +60,11 @@ add_subdirectories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Add libraries from libs
 add_libs_from_subdirectories(${CMAKE_CURRENT_SOURCE_DIR}/libs)
+
+### Testing ###
+# Uncomment the following lines to enable testing
+# # Enable testing
+# enable_testing()
+
+# # Add the tests directory
+# add_subdirectory(tests)
